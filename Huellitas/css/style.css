@@ -1,0 +1,95 @@
+/* estilos generales para toda la página */
+
+body {
+	font-family: 'Underdog', cursive;
+	margin: 0;
+
+}
+
+.bg-color-info {
+	background-color: #db7b90;
+}
+
+.font-color-general {
+	color: rgb(67, 105, 176);
+}
+
+.brand-name {
+	font-size: 1.8rem;
+	color: rgb(67, 105, 176);
+	margin-left: 2rem;
+}
+
+.bg-img-principal {
+	background-image: url("../img/1.jpg");
+	background-size: cover;
+	height: 650px;
+	background-position: center center;
+}
+
+.bloque-texto-principal {
+	margin-top: ;
+}
+
+.bg-color-azul {
+	background-color: rgb(67, 105, 176);
+}
+
+.hrblanco {
+	width: 10%;
+	background-color: white;
+}
+
+.hrazul {
+	width: 10%;
+	background-color: #db7b90;
+}
+
+
+/* estilos específicos para pantallas menores a 992px (menor que lg de bootstrap) */
+@media only screen and (max-width : 992px) {
+
+	.brand-name {
+		font-size: 1.8rem;
+		color: rgb(67, 105, 176);
+		margin-left: 1rem;
+	}
+
+		
+}
+
+
+
+  header, .alert{
+	z-index: 100;
+  }
+  .description{
+	height: 25px;
+	overflow: hidden;
+	transition: height .3s ease-in .3s;
+  }
+  .description:hover{
+	height: 80px;
+  }
+ 
+  .table__productos{
+	display: flex;
+  }
+  .table__productos > img{
+	width: 9rem;
+	object-fit: contain;
+	border-radius: 6px;
+	margin-right: 20px;
+  }
+  .table__cantidad > input{
+	width: 40px;
+	border: none;
+	outline: 0;
+	font-size: 16px;
+	font-weight: 700;
+	margin-right: 30px;
+	margin-bottom: 20px;
+  }
+  .hide, .remove{
+	display: none;
+  }
